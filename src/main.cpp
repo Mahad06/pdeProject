@@ -11,7 +11,7 @@ main(int argc, char *argv[])
   const unsigned int degree_pressure = 1;
   const double Re = 154.0;
 
-  const double T      = 0.005;
+  const double T      = 2.0;
   const double deltat = 0.0025;
 
   NavierStokes problem(N, Re, degree_velocity, degree_pressure, T, deltat);
